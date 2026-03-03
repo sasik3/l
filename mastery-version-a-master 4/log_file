@@ -1,0 +1,513 @@
+   39  runner -d
+   40  make debug
+   41  python3 driver.py -w1
+   42  gdb runner
+   43  make debug
+   44  python3 driver.py -w1
+   45  gdb runner
+   46  make clean
+   47  make debug
+   48  gdb runner
+   49  make clean
+   50  make debug
+   51  python3 driver.py -w1
+   52  gdb runner
+   53  python3 driver.py -w2
+   54  r -r traces/week2/basic/binary-bal.rep
+   55  gdb runner
+   56  python3 driver.py -w2
+   57  make debug
+   58  python3 driver.py -w1
+   59  python3 driver.py -w2
+   60  make debug
+   61  python3 driver.py -w2
+   62  make debug
+   63  python3 driver.py -w2
+   64  make debug
+   65  make debug
+   66  python3 driver.py -w1
+   67  python3 driver.py -w2
+   68  make debug
+   69  python3 driver.py -w2
+   70  make debug
+   71  make debug
+   72  make debug
+   73  python3 driver.py -w2
+   74  gdb runner
+   75  make clean
+   76  make debug
+   77  gdbr unner
+   78  gdb runner
+   79  make debug
+   80  gdb runner
+   81  make debug
+   82  make debug
+   83  make debug
+   84  make debug
+   85  make clean
+   86  make debug
+   87  gdb runner
+   88  make clean
+   89  make debug
+   90  python3 driver.py -w1
+   91  python3 driver.py -w2
+   92  gdb runner
+   93  make debug
+   94  python3 driver.py -w2
+   95  make debug
+   96  python3 driver.py -w1
+   97  python3 driver.py -w2
+   98  make clean
+   99  make debug
+  100  python3 driver.py -w1
+  101  make debug
+  102  python3 driver.py -w1
+  103  python3 driver.py -w2
+  104  git commit -m 
+  105  git commit -m "hello"
+  106  git commit -m "hello"
+  107  git add
+  108  git add .
+  109  git commit -m "hello"
+  110  git add .
+  111  git commit -m "hello"
+  112  git push
+  113  git pull
+  114  git push
+  115  git pull
+  116  git push
+  117  git commit -m
+  118  git push
+  119  git pull
+  120  git config pull.rebase false
+  121  git pull
+  122  make 
+  123  make debug
+  124  make debug
+  125  git config pull.rebase false
+  126  git pull
+  127  git add .
+  128  git commit -m "fix"
+  129  git pull
+  130  git push
+  131  git config --global user.name
+  132  git config --global user.name sasik3
+  133  git config --gloabl user.email sk59466@eid.utexas.edu
+  134  git config --global user.email sk59466@eid.utexas.edu
+  135  git push
+  136  git commit -m "fix"
+  137  make debug
+  138  git push
+  139  git commit -m "fix"
+  140  git add
+  141  git add .
+  142  git commit -m "fix"
+  143  git push
+  144  git remote -v
+  145  git commit git@github.com:sasik3/hello.git
+  146  git clone git@github.com:sasik3/hello.git
+  147  git clone SHA256:7eSGRoZ/8JsO1TxuiN0OTKGJvgAgpXSGK/q4ZC8Gbq0
+  148  git clone git@github.com:sasik3/hello.git
+  149  ssh-keygen -t ed25519 -C "sasi.kondru@gmail.com"
+  150  ssh-add ~/.ssh/id_ed25519
+  151  git clone https://github.com/sasik3/hello.git
+  152  cd
+  153  cd
+  154  cd /
+  155  cd .
+  156  cd
+  157  git remote -v
+  158  make
+  159  make trike
+  160  make raptor
+  161  make trex
+  162  make strego
+  163  make trex
+  164  make trex
+  165  ls -a
+  166  make trex
+  167  make
+  168  make raptor
+  169  gdb bin
+  170  gdb bin
+  171  gdb orderlogs
+  172  gdb bin/orderlogs
+  173  gdb testcases
+  174  gdb bin/orderlogs
+  175  cd /u/sasik5/hello-1
+  176  gdb bin/orderlogs
+  177  make trike
+  178  gdb bin/orderlogs
+  179  testcases/all_new
+  180  /u/sasik5/hello-1/testcases/uneven_new
+  181  .orderlogs testcases/all_new
+  182  ./bin/orderlogs -f testcases/all_new
+  183  make debug
+  184  make trex
+  185  ./bin/orderlogs -f testcases/all_new
+  186  make trex
+  187  ./bin/orderlogs -f testcases/all_new
+  188  git add .
+  189  git commit -m "done"
+  190  git push
+  191  bin/ /u/sasik5/hello-1/testcases/all_new
+  192  bin /testcases/all_new
+  193  run /u/sasik5/hello-1/testcases/all_new
+  194  r /u/sasik5/hello-1/testcases/all_new
+  195  ./orderlogs testcases/all_new
+  196  reorder /u/sasik5/hello-1/testcases/all_new
+  197  ./bin/orderlogs -f testcases/all_new.s
+  198  ./bin/orderlogs -f testcases/all_new
+  199  ./bin/orderlogs testcases/all_new
+  200  ./bin/orderlogs testcases/all_new
+  201  ./bin/orderlogs -f testcases/all_new
+  202  ./bin/ref_order -f estcases/all_new
+  203  ./bin/ref_order -f testcases/all_new
+  204  ./ref_order -f testcases/all_new.s
+  205  chmod +x ref_order
+  206  ./ref_order -f testcases/all_new.s
+  207  ./ref_order -f testcases/all_new.s
+  208  ./ref_order -f testcases/all_new.s
+  209  ./ref_order -f testcases/all_new
+  210   ./ref_order  testcases/all_new
+  211  git remote -v
+  212   ./ref_order  testcases/all_new
+  213   ./ref_order-f  testcases/all_new
+  214   ./ref_order -f   testcases/all_new
+  215  ./bin/orderlogs -f testcases/all_new
+  216  cd
+  217  ls
+  218  cd mm-lab-sasik3
+  219  pwd
+  220  git remote -v
+  221  gdb bin/orderlogs
+  222  gdb bin/trie
+  223  git clone https://github.com/sasik3/h
+  224  git clone
+  225  gdb orderlog
+  226  gdb main
+  227  gdb bin/main
+  228  gdb orderlogs
+  229  trie_ref outputs/easy.in.ref
+  230  chmod 9
+  231  chmod
+  232  chmod --help
+  233  trie_ref outputs/easy.in.ref
+  234  gdb bin/orderlogs
+  235   ./ref_order -f   testcases/all_new
+  236  trie_ref outputs/easy.in.ref
+  237  ./bin/orderlogs -f testcases/all_new
+  238  bin/second_trie -w testcases/dinosaurs.in
+  239  make pleakely
+  240  make pleakley
+  241  bin/second_trie -w testcases/dinosaurs.in
+  242  make stitch
+  243  make lilo
+  244  make cobra
+  245  gdb bin/second_trie
+  246  make stitch
+  247  gdb bin/second_trie
+  248  make cobra
+  249  make lilo
+  250  gdb bin/second_trie
+  251  make lilo
+  252  bin/second_trie testcases/testcases/dinosaurs.in
+  253  bin/second_trie -w testcases/dinosaurs.in
+  254  gdb bin/second_trie
+  255  make lilo
+  256  make cobra
+  257  make lilo
+  258  gdb bin/second_trie
+  259  bin/second_trie -w testcases/dinosaurs.in
+  260  gdb bin/second_trie
+  261  gdb bin/second_trie
+  262  gdb bin/second_trie
+  263  make cobra
+  264  make lilo
+  265  make lilo
+  266  make cobra
+  267  make lilo
+  268  bin/second_trie -w testcases/dinosaurs.in
+  269  bin/second_trie -w testcases/no-root.in
+  270  make pleakley
+  271  make nani
+  272  bin/second_trie -w testcases/dinosaurs.in
+  273  make lilo
+  274  bin/second_trie -w testcases/dinosaurs.in
+  275  make pleakley
+  276  bin/second_trie -w testcases/no-root.in
+  277  make pleakley
+  278  make nani
+  279  bin/second_trie -w testcases/no-root.in
+  280  bin/second_trie -w testcases/easy.in
+  281  bin/second_trie -w testcases/no-root.in
+  282  make nani
+  283  make pleakley
+  284  make lilo
+  285  bin/second_trie -w testcases/no-root.in
+  286  make pleakley
+  287  bin/second_trie -w testcases/no-root.in
+  288  make nani
+  289  bin/second_trie -w testcases/no-root.in
+  290  git add .
+  291  git commit .m "done"
+  292  git commit -m "done"
+  293  git push
+  294  bin/second_trie -w testcases/no-root.in
+  295  make pleakley
+  296  make nani
+  297  make nani
+  298  make lilo
+  299  make nani
+  300  make lilo
+  301  make nani
+  302  bin/second_trie -w testcases/no-root.in
+  303  bin/second_trie -w testcases/no-root.in
+  304  bin/second_trie -w testcases/no-root.in
+  305  make lilo
+  306  bin/second_trie -w testcases/no-root.in
+  307  make lilo
+  308  bin/second_trie -w testcases/no-root.in
+  309  make nani
+  310  bin/second_trie -w testcases/no-root.in
+  311  bin/trie_ref outputs/many-finds.in.ref
+  312  bin/trie_ref /u/sasik5/sss/outputs/no-find.in.out
+  313  trie_ref /u/sasik5/sss/outputs/no-find.in.out
+  314  git clone https://github.com/sasik3/sss.git
+  315  git clone https://github.com/sasik3/q.git
+  316  q
+  317  make spinosaurus
+  318  make raptor
+  319  make raptor
+  320  gdb orderlogs
+  321  make spinosaurus
+  322  make trex
+  323  gdb orderlogs
+  324  gdb bin/orderlogs
+  325  make trex
+  326  make raptor
+  327  gdb bin/orderlogs
+  328  make trex
+  329  make raptor
+  330  gdb bin/orderlogs
+  331  make  spinosaurus
+  332  make spinosaurus
+  333  make trex
+  334  gdb bin/orderlogs
+  335  make spinosaurus
+  336  make spinosaurus
+  337  make trike
+  338  make trike
+  339  make spinosaurus
+  340  make trex
+  341  gdb bin/orderlogs
+  342  make trex
+  343  make spinosaurus
+  344  make trex
+  345  gdb bin/orderlogs
+  346  make spinosaurus
+  347  make trex
+  348  make trex
+  349  make trex
+  350  make trex
+  351  make trike
+  352  make stego
+  353  gdb bin/orderlogs
+  354  make spinosaurus
+  355  make trex
+  356  make trike
+  357  gdb bin/orderlogs
+  358  make spinosaurus
+  359  make trike
+  360  gdb bin/orderlogs
+  361  make trike
+  362  make stego
+  363  bin/testcases/all_new
+  364  bin/orderlogs -f testcases/all_new
+  365  ref_order outputs/all_new.out
+  366  chmod 8
+  367  make stego
+  368  ./ref_order 
+  369  ./ref_order -f orderlogs
+  370  chmod rwxrwxrwx
+  371  chmos --help
+  372  chmod rwxrwxrwx ref_order
+  373  chmod 777 ref_order
+  374  ./ref_order -f orderlogs
+  375  ./ref_order -f bin/orderlogs
+  376  ./ref_order -f testcases/all_new
+  377  bin/orderlogs -f testcases/all_new
+  378  make stego
+  379  git add .
+  380  git commit -m "hello"
+  381  git push
+  382  make subway
+  383  bin/stringbuilder.o testcases/catdel.trace
+  384  bin/stringbuilder.o 
+  385  chmod 777
+  386  chmod 777 bin/stringbuilder.o
+  387  bin/stringbuilder.o testcases/catdel.trace
+  388  bin sb testcases/catdel.trace
+  389  bin/sb testcases/catdel.trace
+  390  bin/sb -i testcases/catdel.trace
+  391  gdb bin/sb
+  392  make snarfs
+  393  make subway
+  394  gdb bin/sb
+  395  make mikes
+  396  mke snarfs
+  397  make snarfs
+  398  make sammy
+  399  make mikes
+  400  make subway
+  401  gdb bin/sb
+  402  make snarfs
+  403  make subway
+  404  gdb bin/sb
+  405  mke snarfs
+  406  mke snarfs
+  407  make potbelly
+  408  gdb bin/sb
+  409  make potbelly
+  410  make potbelly
+  411  make snarfs
+  412  make potbelly
+  413  gdb bon/sb
+  414  gdb bin/sb
+  415  gdb bin/sb
+  416  make snarfs
+  417  make potbelly
+  418  gdb bin/sb
+  419  gdb bin/sb
+  420  bin/sb -i testcases/catdel.trace
+  421  make snarfs
+  422  make potbelly
+  423  make potbelly
+  424  make potbelly
+  425  bin/sb -i testcases/catdel.trace
+  426  make snarfs
+  427  make potbelly
+  428  gdb bin/sb
+  429  gdb bin/sb
+  430  make snarfs
+  431  make potbelly
+  432  gdb bin/sb
+  433  make snarfs
+  434  make potbelly
+  435  make snarfs
+  436  make potbelly
+  437  bin/sb -i testcases/catdel.trace
+  438  make potbelly
+  439  make potbelly
+  440  bin/sb -i testcases/catdel.trace
+  441  bin/sb -i testcases/catdel.trace
+  442  bin/sb -i testcases/catdel.trace
+  443  bin/sb -i testcases/catdel.trace
+  444  make potbelly
+  445  make potbelly
+  446  bin/sb -i testcases/catdel.trace
+  447  git commit https://github.com/sasik3/e.git
+  448  git clone https://github.com/sasik3/e.git
+  449  git clone https://github.com/sasik3/r.git
+  450  q
+  451  touch shell_logs.txt
+  452  echo history > shell_logs.txt
+  453  history
+  454  make potbelly
+  455  make doc
+  456  git add .
+  457  git commit
+  458  make snow
+  459  bin/second_trie
+  460  bin/second_trie -x testcases/dinosaurs.in
+  461  bin/second_trie
+  462  gdb bin/second_trie
+  463  make happy
+  464  make snow
+  465  gdb bin/second_trie
+  466  gdb bin/second_trie
+  467  make happy
+  468  make doc
+  469  gdb bin/second_trie
+  470  make doc
+  471  gdb bin/second_trie
+  472  bin/second_trie -x testcases/dinosaurs.in
+  473  gdb bin/second_trie
+  474  make doc
+  475  bin/second_trie -x testcases/dinosaurs.in
+  476  gdb bin/second_trie
+  477  make doc
+  478  bin/second_trie -x testcases/dinosaurs.in
+  479  make grump
+  480  make grumpy
+  481  chmod +x
+  482  chmod +x outputs/dinosaurs.in.ref
+  483  chmod +x outputs/easy.in.ref
+  484  chmod +x outputs/many-finds.in.ref
+  485  chod +x outputs/no-find.in.ref
+  486  chmod +x outputs/no-find.in.ref
+  487  chmod +x outputs/no-root.in.ref
+  488  make grumpy
+  489  chmod +x trie_ref
+  490  make grumpy
+  491  git add /
+  492  git add .
+  493  git commit -m "done"
+  494  git push
+  495  history
+  496  vim shell_logs.txt
+  497  git push
+  498  git add .
+  499  git commit -m "hey"
+  500  git push
+  501  make debug
+  502  bin/mini_ci
+  503  mini_ci testcases/basic_add.s
+  504  make tests
+  505  gdb mini_ci
+  506  mini_ci_reference 
+  507  chmod +x testcases/multi_op_err.s
+  508  mini_ci_reference 
+  509  chmod +x mini_ci_reference 
+  510  mini_ci_reference 
+  511  mini_ci_reference testcases/err_ops.s
+  512  gdb mini_ci
+  513  make check
+  514  gdb mini_ci
+  515  make debug
+  516  make debug
+  517  mini_ci_reference testcases/err_ops.s
+  518  make check
+  519  make debug
+  520  mini_ci_reference testcases/err_ops.s
+  521  gdb mini_ci
+  522  make debug
+  523  make check
+  524  gdb mini_ci
+  525  make debug
+  526  gdb mini_ci
+  527  make debug
+  528  gdb mini_ci
+  529  make debug
+  530  make check
+  531  gdb mini_ci
+  532  make debug
+  533  make check
+  534  git add .
+  535  touch log_file
+  536  /var/log
+  537  more /var/log
+  538  history
+
+  (gdb) show commands
+   21  p new_token
+   22  p new_token -> val
+   23  p val_a
+   24  p val_b
+   25  q
+   26  r testcases/err_ops2.s
+   27  q
+   28  history
+   29  help
+   30  show commands
+(gdb) 
